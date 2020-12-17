@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Scan QR"
+       android:id="@+id/btn_scan"
+       android:layout_gravity="center_horizontal"
+       />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Scan results"
+       android:layout_marginTop="16dp"
+       />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18sp"
+       android:id="@+id/tv_result"
+       android:textIsSelectable="true"
+       android:layout_marginTop="8dp"
+       />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="See how it works in a fragment"
+       android:id="@+id/tv_to_frag"
+       android:textStyle="bold"
+       android:layout_marginTop="16dp"
+       android:drawableRight="@drawable/ic_right_arrow"
+       android:layout_gravity="center_horizontal|bottom"
+       />
+
+</LinearLayout>
